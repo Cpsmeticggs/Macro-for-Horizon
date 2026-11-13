@@ -1,0 +1,1 @@
+fn ui_mouse_up(game:&crate::game::Game<'_>,button:i32){crate::game::macro_ui::release(game,&match button {0=>"key.mouse.left".to_owned(),1=>"key.mouse.right".to_owned(),2=>"key.mouse.middle".to_owned(),n=>format!("key.mouse.{}",n+1)});}
